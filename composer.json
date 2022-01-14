@@ -1,0 +1,52 @@
+{
+    "name": "avido/laravel-smtpeter",
+    "version": "0.1.0",
+    "description": "Smtpeter Api client for Laravel",
+    "keywords": ["laravel", "smtpeter", "api", "php"],
+    "type": "package",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Sebastiaan",
+            "email": "sebastiaan@avido.nl"
+        }
+    ],
+    "homepage": "https://github.com/avido/laravel-smtpeter",
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "avido/smtpeter-php-api": "0.0.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0 || ^5.0 || ^6.0",
+        "phpunit/phpunit": "^9.5.11"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Avido\\LaravelSmtpeter\\ServiceProvider"
+            ],
+            "aliases": {
+                "Smtpeter": "Avido\\LaravelSmtpeter\\Facades\\Smtpeter"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Avido\\LaravelSmtpeter\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Avido\\LaravelSmtpeter\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
