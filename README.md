@@ -51,5 +51,5 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 [ico-downloads]: https://img.shields.io/packagist/dt/avido/laravel-smtpeter.svg?style=flat-square
 
 [link-packagist]: https://packagist.org/packages/avido/laravel-smtpeter
-[link-tests]: https://github.com/avido/laravel-smtpeter/actions?query=workflow%3Atests
+[link-tests]: https://github.com/avido/laravel-smtpeter/actions/workflows/tests.yml?query=workflow%3Atests
 [link-downloads]: https://packagist.org/packages/avido/laravel-smtpeter
