@@ -1,6 +1,6 @@
 {
     "name": "avido/laravel-smtpeter",
-    "version": "0.1.2",
+    "version": "0.1.3",
     "description": "Smtpeter Api client for Laravel",
     "keywords": ["laravel", "smtpeter", "api", "php"],
     "type": "package",
