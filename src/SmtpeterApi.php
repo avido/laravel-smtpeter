@@ -23,6 +23,11 @@ class SmtpeterApi
         return $this->getClient()->email;
     }
 
+    public function events()
+    {
+        return $this->getClient()->events;
+    }
+
     /**
      * Set Client
      * @param ClientInterface $client
